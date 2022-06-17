@@ -19,3 +19,10 @@ For the game to operate I needed to create a function to store the user’s choi
 Next, I needed to generate a random choice for the computer and store this. 
 Using ‘if’, ‘elif’ and ‘else’ statements, I built a script to choose a winner between the computer’s choice and user’s choice; using the classic rules of Rock, Paper, Scissors.
 To start the game, I added a start game key where the user had to press the ‘a’ key to begin.
+
+Milestone 4:
+
+Beneficially, and to make the game more interactive, I added a countdown to the game using ‘time.time()’ and created a counter to act as the current time.  Misusing this from a number of my choice (7) and using the ‘putText’ function, I displayed a countdown from 7 on the screen as a message to the user.
+As the user needed to understand who chose which option and the conclusion of the game, I added two variables, dictating if the user or computer won.
+Additionally, I created a class to track the number of wins the computer or player had won, and after three wins, the message displays who won on the user’s screen.
+To finish, I added a function with the ‘n’ key to allow the user to manually start a new round when pressed.
